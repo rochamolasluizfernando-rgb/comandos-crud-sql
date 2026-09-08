@@ -32,7 +32,7 @@ VALUES
     'Lançamento promete mais desempenho e bateria.',
     'As fabricantes apresentaram novos modelos com recursos avançados e maior autonomia.',
     'smartphone.jpg',
-    1,
+    'sim',
     1,
     1
 );
@@ -45,34 +45,29 @@ VALUES
     'Ferramentas online ganham espaço nas escolas.',
     'O uso de ambientes virtuais de aprendizagem cresce em todo o país.',
     'educacao.jpg',
-    0,
+    'sim',
     3,
     2
 );
 
-INSERT INTO noticias
-(titulo, resumo, texto, imagem, destaque, usuario_id, categoria_id)
+INSERT INTO noticias (titulo, resumo, texto, imagem, destaque, usuario_id, categoria_id)
 VALUES
 (
-    'Novo filme bate recordes de bilheteria',
-    'Produção lidera arrecadação nas primeiras semanas.',
-    'O longa conquistou milhões de espectadores em diversos países.',
-    'filme.jpg',
-    1,
-    2,
-    3
-);
-
-INSERT INTO noticias
-(titulo, resumo, texto, imagem, destaque, usuario_id, categoria_id)
-VALUES
-(
-    'Inteligência Artificial avança no setor tecnológico',
-    'Empresas investem cada vez mais em IA.',
-    'Novas aplicações estão sendo desenvolvidas para diferentes áreas do mercado.',
-    'ia.jpg',
-    0,
+    'Corinthias está mal para caramba',
+    'O time caiu muito após a copa do mundo',
+    'Não sei mais o que escrever sobre isso tudo e etc e tal e bla bla',
+    'corinthians.jpg'
+    'sim'
     1,
     1
+);
+
+INSERT INTO noticias (titulo, resumo, texto, imagem, destaque, usuario_id, categoria_id)
+VALUES
+(
+    'Visual Studio Code com IA aprimorada',
+    'As atualizações recentes do VSCode trouxeram melhorias para o Copilot',
+    'Usar o VSCode ficou mais fácil pois etc e tal bla bla bla e etc e sei la etc',
+    'vscode.jpg'
 );
 ```
